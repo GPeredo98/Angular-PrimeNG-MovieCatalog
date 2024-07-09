@@ -1,0 +1,59 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #efc5ca;
+    background: #c46471;
+    background: -moz-linear-gradient(top, #c46471 0%, #d24b5a 30%, #ba2737 62%, #851b27 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #c46471), color-stop(30%, #d24b5a), color-stop(62%, #ba2737), color-stop(100%, #851b27));
+    background: -webkit-linear-gradient(top, #c46471 0%, #d24b5a 30%, #ba2737 62%, #851b27 100%);
+    background: -o-linear-gradient(top, #c46471 0%, #d24b5a 30%, #ba2737 62%, #851b27 100%);
+    background: -ms-linear-gradient(top, #c46471 0%, #d24b5a 30%, #ba2737 62%, #851b27 100%);
+    background: linear-gradient(to bottom, #c46471 0%, #d24b5a 30%, #ba2737 62%, #851b27 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c46471', endColorstr='#851b27', GradientType=0 );
+}
+
+.login-box {
+    display: flex;
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.45);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image-container {
+    height: 70vh;
+    img {
+        width: 400px;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.form-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 400px;
+}
+
+.form-input {
+    width: 100%;
+    ::ng-deep button {
+        width: 100%;
+    }
+    ::ng-deep .p-inputtext {
+        width: 100%;
+    }
+}
+
+.label-signin {
+    font-size: larger;
+    font-weight: bold;
+}

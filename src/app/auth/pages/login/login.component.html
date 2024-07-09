@@ -1,1 +1,15 @@
-<p>login works!</p>
+<div class="main-container">
+    <div class="login-box">
+        <div class="image-container">
+            <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlM19yb3dzX29mX2VtcHR5X3JlZF9zZWF0c19pbl9jaW5lbWFfZWVhNDA4NGItMTEwNC00MjY2LWE0NjctOTlhZDI5MTRkODQ5LWIuanBn.jpg" alt="">
+        </div>
+        <div class="form-container">
+            <label class="label-signin">Sign in to continue...</label>
+            <input class="form-input" type="text" pInputText [(ngModel)]="user" placeholder="Username"/>
+            <p-password class="form-input" [style]="{'width': '100%'}" [(ngModel)]="password" [feedback]="false" [toggleMask]="true" placeholder="Password"/>
+            <p-button (click)="login()" class="form-input" label="LOGIN"/>
+            <label for="">Doesn't have an account? Create one</label>
+            <label for="">Forgot password?</label>
+        </div>
+    </div>
+</div>
