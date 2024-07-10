@@ -5,7 +5,7 @@ export const routes: Routes = [
     {
         path: '',
         loadChildren: () => import('./movies/movies.routes').then(m => m.MOVIES_ROUTES),
-        // canActivate: [authGuard]
+        canActivate: [authGuard]
     },
     {
         path: 'login',
