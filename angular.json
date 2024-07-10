@@ -18,6 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/angular-primeng-moviecatalog",
+            "baseHref": "/Angular-Primeng-Moviecatalog/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -48,7 +49,8 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/Angular-Primeng-Moviecatalog/"
             },
             "development": {
               "optimization": false,
