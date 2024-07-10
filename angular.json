@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/angular-primeng-moviecatalog",
-            "baseHref": "/Angular-Primeng-Moviecatalog/",
+            "baseHref": "/Angular-PrimeNG-MovieCatalog/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -50,7 +50,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/Angular-Primeng-Moviecatalog/"
+              "baseHref": "/Angular-PrimeNG-MovieCatalog/"
             },
             "development": {
               "optimization": false,
